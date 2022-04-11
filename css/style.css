@@ -154,6 +154,7 @@ body{
 height: 540px;
 left: 701px;
 top: 172px;
+margin-top: 232px;
 }
 
 .fisting{
@@ -166,8 +167,51 @@ order: 0;
 flex-grow: 0;
 margin-right: 8px;
 color: #555555;
+margin-top: 232px;
 }
 
 .ho{
     color: #888888;
+}
+
+.tochki{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #EE9591;
+}
+
+span{
+    color: #888888;
+}
+
+.color{
+    color:#F7F7F7;
+}
+
+.box{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 15px 22px;
+
+position: static;
+width: 412px;
+height: 84px;
+left: 0px;
+top: 372px;
+
+/* Brand Primary */
+
+background: #EE9591;
+box-shadow: 16px 16px 60px rgba(179, 94, 90, 0.4);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 40px 0px;
 }
