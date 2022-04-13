@@ -1,13 +1,11 @@
-/* Header styles start*/
-
 header{
     width: 100%;
     padding: 36px 100px;
+    position: sticky;
 }
 
 .header__wrapper{
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     background-color: #FEF8F8;
@@ -17,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    min-width: 32%;
 }
 
 .header__button{
@@ -31,6 +29,7 @@ header{
     font-weight: 500;
     font-size: 14px;
     color: #F7F7F7;
+    margin-left: 32px;
 }
 
 .header__nav__links {
@@ -50,13 +49,3 @@ header{
     opacity: .5;
     cursor: pointer;
 }
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-
-/* Header styles end*/
