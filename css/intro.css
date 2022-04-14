@@ -1,0 +1,66 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.img{
+width: 639px;
+height: 540px;
+}
+
+.title{
+font-weight: 900;
+font-size: 70px;
+line-height: 80px;
+color: #555555;
+margin-top: 24px;
+margin-bottom: 32px
+}
+
+.copy{
+    color: #888888;
+    margin-top: 0;
+}
+
+.benefits_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #888888;
+    max-width: 463px;
+    margin: 40px 0;
+}
+
+.benefits_list > div {
+    display: flex;
+    align-items: center;
+}
+
+.benefits_list > div > img {
+    margin-right: 8px;   
+}
+
+.box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+max-width: 412px;
+padding: 15px 22px;
+color:#F7F7F7;
+
+/* Brand Primary */
+
+background: #EE9591;
+box-shadow: 16px 16px 60px rgba(179, 94, 90, 0.4);
+border-radius: 10px;
+}
+
+.box > h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.box > p {
+    margin: 0;
+}
