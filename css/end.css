@@ -28,10 +28,40 @@
 .girl{
     display: flex;
     justify-content: space-between;
-    margin-left: 486px;
+    margin-left: 640px;
 }
 
 .name{
     font-size: 18px;
     font-weight: bold;
+    color: #555555;
+}
+
+.text{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.leader{
+    color: #EE9591;
+    font-size: 12px;
+}
+
+.text_girl{
+    font-size: 16px;
+    color: #888888;
+    margin-top: 16px;
+    margin-right: 140px;
+}
+
+.next{
+    font-weight: 500;
+    color: #888888;
+}
+
+.comment > img{
+    margin-top: 143px;
+    margin-left: 975px;
 }
